@@ -1,6 +1,7 @@
-package com.alan.headers.service;
+package com.alan.headers.controller;
 
 import com.alan.headers.controller.HeaderController;
+import com.alan.headers.service.HeaderService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.Assertions;
