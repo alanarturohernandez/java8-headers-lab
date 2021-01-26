@@ -51,7 +51,7 @@ curl 'http://localhost:8080/api/headers?filter=Accept-Language' \
 ```
 
 ## Configuration
-By default port when running is 8080 to change it you should edit in `src/main/resources/application.properties`  
+The default port when running is 8080 it can be changed in `src/main/resources/application.properties`  
 ```properties
 server.port=8080
 ```
