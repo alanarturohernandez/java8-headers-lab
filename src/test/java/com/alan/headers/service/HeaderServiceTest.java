@@ -35,10 +35,7 @@ class HeaderServiceTest {
     @Test
     public void getHeadersWithFilter() {
         MockHttpServletRequest request = getHttpServletRequest();
-        //when
         List<String> headers = Stream.of("Accept-Language").collect(Collectors.toList());
-
-        //then
         Assertions.assertEquals(1, headerService.getHeaders(request, headers).size());
     }
 
